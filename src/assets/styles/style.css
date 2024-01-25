@@ -1,0 +1,87 @@
+@import 'https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,700&display=swap';
+@import 'https://fonts.googleapis.com/icon?family=Material+Icons';
+
+body {
+  font-family: 'sarabun', sans-serif !important;
+  color: #7a7a7a;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  margin-top: 20px;
+  background-color: #bf152948;
+}
+
+h2 {
+  color: black;
+  margin-top: 4px;
+  margin-bottom: 0px;
+}
+
+.container {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  padding: 12px;
+  margin: 12px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  align-content: center;
+  padding: 10px;
+  height: auto;
+}
+
+.justify-content-end {
+  justify-content: end;
+}
+
+.justify-content-start {
+  justify-content: start;
+}
+
+.grid-row {
+  display: flex;
+  grid-column-start: 1;
+  align-content: center;
+
+  margin: 0.5rem;
+}
+
+.search-container {
+  position: relative;
+  display: block;
+  margin: 4px 2px 4px 2px;
+  border-radius: 5px;
+  text-align: left;
+  padding: 2px;
+}
+
+.input-text {
+  width: -webkit-fill-available;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.btn {
+  min-width: 100px;
+  padding-top: 12px;
+  padding-right: 10px;
+  padding-bottom: 12px;
+  padding-left: 10px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  align-self: flex-end;
+  text-align: center;
+  font-size: 14px;
+  height: auto;
+  color: #fff;
+  font-weight: 550;
+  background-color: #bf1529;
+  white-space: normal;
+  word-break: break-word;
+  border-radius: 10px;
+  border: 0px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
