@@ -34,7 +34,7 @@ export default {
   mounted: function mounted() {
     localStorage.token = 'test'; // must remove this line
     console.log(process.env);
-    liff.init({ liffId: '2002896190-nYPjgJAG' }).then(() => {
+    liff.init({ liffId: 'process.env.VUE_APP_LIFF_ID' }).then(() => {
       liff.ready.then(async () => {
         if (liff.isInClient()) {
           this.profile = await liff.getProfile();
